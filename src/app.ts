@@ -14,3 +14,15 @@ let abc: string;
 abc = "Abc";
 abc = "123";
 console.log(a, myName, abc);
+
+let age: string | number | [];
+// type would be string or number or array;
+age = 12;
+age = '12';
+age = [];
+console.log(age);
+
+let Name: "Shakib"|"Sizan" = "Shakib";
+// evabe dile "Shakib" chara onno name ba string ar nibe na
+Name="Sizan"
+console.log(Name);
